@@ -1,0 +1,218 @@
+/*All common css start*/
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+ul,ol{
+    list-style-type: none;
+}
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+/*All common css end*/
+
+/* Top header part start*/
+#TopHeader{
+    background: black;
+    padding: 20px 0;
+}
+.THItem{
+    display: flex;
+    justify-content: space-between;
+}
+.THItemLeft span{
+    color: white;
+    margin-right: 35px;
+    font-size: 12px;
+    font-family: "Open Sans", sans-serif;
+}
+.THItemLeft span i{
+    padding-right: 5px;
+}
+.THItemRight i{
+    padding: 0 10px;
+    color: white;
+}
+/* Top header part end*/
+/* header part start*/
+#HeaderPart{
+    padding: 20px 0;
+}
+.LogoWithMenu{
+    display: flex;
+    justify-content: space-between;
+}
+.menu{
+    margin-top: 25px;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    text-transform: uppercase;
+    font-size: 15px;
+    color: black;
+    font-family:"Open Sans", sans-serif ;
+    font-weight: 700px;
+    padding-right: 50px;
+}
+/* header part end*/
+/*banner part start*/
+#bannerpart{
+    background: url(../images/1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bannerOverly{
+    padding-top: 250px;
+    padding-bottom: 340px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.bannerText{
+    text-align: center;
+    color: #fff;
+}
+.bannerText span{
+    color: orange;
+}
+.bannerText h4{
+    font-family: "Roboto Slab", serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+.bannerText h1{
+    font-size: 60px;
+    font-family: "Roboto Slab", serif;
+    font-weight: 700;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+.bannerText p {
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    padding: 0px 346px;
+    line-height: 30px;
+    margin-bottom: 70px;
+}
+.bannerText a{
+    padding: 15px 35px;
+    border-radius: 50px;
+    background-color: orange;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    transition: .4s;
+}
+.bannerText a:hover{
+    background-color: white;
+    color: orange;
+}
+/*banner part end*/
+/*goal part start*/
+#GoalPart{
+    height: 560px; 
+}
+.over{
+    position: relative;
+}
+.goalCard {
+    padding: 160px 0;
+    width: 100%;
+    position: absolute;
+    top: -120px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(85, 85, 85, 0.2);
+}
+.goalCard h3{
+    font-size: 36px;
+    font-family: "Roboto Slab", serif;
+}
+
+.goalHand{
+    position: relative;
+    margin: 20px 0;
+    display: inline-block;
+}
+.goalHand::after {
+    position: absolute;
+    height: 2px;
+    width: 100px;
+    background-color: black;
+    content: "";
+    top: 50%;
+    right: 59px;
+    transform: translateY(-50%);
+}
+.goalHand::before {
+    position: absolute;
+    height: 2px;
+    width: 100px;
+    background-color: black;
+    content: "";
+    top: 50%;
+    left: 59px;
+    transform: translateY(-50%);
+}
+.goalCard p{
+    color: #555555;
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+}
+.GoalItems{
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    margin-top: 60px;
+    justify-content: space-between;
+}
+.GoalItem{
+    width: 30%;
+}
+.GoalItem i{
+    font-size: 50px;
+    padding-bottom: 15px;
+}
+.GoalItem h3{
+    padding-bottom: 25px;
+}
+.GoalItem p{
+    font-size: 18px;
+    color: #555555;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    line-height: 20px;
+}
+/*goal part end*/
+/*causes part start*/
+#CausesPart{
+    padding:70px;
+    background: red;
+}
+.CausesText{
+    text-align: center;
+}
+.CausesItems{
+    display: flex;
+    justify-content: space-between;
+    background-color: blue;
+    width: 90%;
+    margin: 0 auto;
+}
+.CausesItem{
+    width: 30%;
+}
+/*causes part end*/
